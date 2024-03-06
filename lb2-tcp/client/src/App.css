@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffc0cb; /* рожевий фон */
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: auto; 
+  max-width: 80%; 
+  padding: 20px;
+  font-size: 1.5rem;
+  border: 2px solid #ffffff; 
+  border-radius: 10px; 
+  background-color: white; 
+}
+
+.result-container {
+  width: 50%;
+  background-color: #f8dcf4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.result-container::before {
+
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.result-text {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.result-value {
+  font-size: 2.5rem;
+  color: #4caf50; /* зелений колір */
+  font-weight: bold;
+}
